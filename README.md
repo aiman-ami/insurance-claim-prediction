@@ -103,5 +103,5 @@ Python, pandas, NumPy, scikit-learn, matplotlib, seaborn
 ## Author
 
 **Aiman Ishaq**
-CS Student | Data Science and Analystics Intern, Developers Hub Corporation
+CS Student | Data Science & Analytics Intern, Developers Hub Corporation
 [LinkedIn](https://linkedin.com/in/aiman-ishaq) . [GitHub](https://github.com/aiman-ami)
