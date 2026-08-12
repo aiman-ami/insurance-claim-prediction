@@ -6,7 +6,7 @@ Insurance companies need to price their policies correctly. Charge too little an
 
 ## The Problem
 
-Medical insurance charges in this dataset range from under $1,000 to over $60,000 for the same age groups. That kind of spread does not happen randomly. There are patterns behind it and finding them is what makes accurate pricing possible.
+Medical insurance charges in this dataset range from as low as $1,122 to over $60,000 for the same age groups. That kind of spread does not happen randomly. There are patterns behind it and finding them is what makes accurate pricing possible.
 
 ![Distribution of Insurance Charges](Distribution_of_Insurance_Charges.png)
 
@@ -68,11 +68,11 @@ The model was assessed using MAE, RMSE, and R² on the test set, along with resi
 
 | Metric | Value |
 |---|---|
-| MAE | $4,186 |
-| RMSE | $6,047 |
-| R² | 0.7515 |
+| MAE | $4,182.35 |
+| RMSE | $5,957.61 |
+| R² | 0.8068 |
 
-The model explains 75% of the variance in insurance charges. The actual vs predicted chart shows the model performs well across most of the range but undershoots on the highest charge cases, exactly the obese smoker segment identified in EDA.
+The model explains 81% of the variance in insurance charges. The actual vs predicted chart shows the model performs well across most of the range but undershoots on the highest charge cases, exactly the obese smoker segment identified in EDA.
 
 ![Actual vs Predicted Insurance Charges](Actual_vs_Predicted_Insurance_Charges.png)
 
